@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@drawable/foodbg"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:background="#B71C1C"
+        android:id="@+id/tabview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:paddingTop="15dp"
+            android:layout_width="wrap_content"
+            android:background="@drawable/border_tab"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtLichan"
+                android:layout_width="180dp"
+                android:textSize="16dp"
+                android:gravity="center"
+                android:textColor="#ffffff"
+                android:layout_height="wrap_content"
+                android:text="Lịch cho ăn" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_weight="0.10"
+                android:layout_height="2dp"
+                android:layout_marginTop="10dp"
+                android:background="#18FFFF" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lnKhothucan"
+            android:paddingTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border_tab"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtKhothucan"
+                android:textSize="16dp"
+                android:textColor="#ffffff"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kho thức ăn" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="0.10"
+                android:layout_height="2dp"
+                android:background="#18FFFF" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#B71C1C"
+        android:layout_below="@+id/tabview"
+        android:textSize="18dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="Lịch thức ăn theo ngày" />
+
+    <RelativeLayout
+        android:id="@+id/datepick"
+        android:layout_width="wrap_content"
+        android:foregroundGravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border_search"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/textView20"
+        android:layout_centerHorizontal="true">
+        <TextView
+            android:id="@+id/txtDay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="80dp"
+            android:paddingLeft="80dp"
+            android:paddingBottom="5dp"
+            android:layout_centerHorizontal="true"
+            android:textColor="#B71C1C"
+            android:textSize="16dp"
+            android:gravity="center_vertical"
+            android:layout_marginTop="5dp"
+            android:text="01/01/2017" />
+    </RelativeLayout>
+
+
+
+
+    <Button
+        android:id="@+id/btnAddLichAn"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/border_button"
+        android:text="+"
+        android:textSize="32dp"
+        android:textColor="#fff"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="25dp"
+        android:layout_marginBottom="25dp" />
+
+    <Button
+        android:id="@+id/btnCapnhat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/datepick"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/border_search"
+        android:layout_marginTop="10dp"
+        android:text="Cập nhật" />
+
+    <ListView
+        android:id="@+id/lvFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/btnCapnhat"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_alignParentBottom="true" />
+
+</RelativeLayout>

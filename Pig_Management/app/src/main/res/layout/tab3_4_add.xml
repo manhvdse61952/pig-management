@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/foodbg"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/txtTitleAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Thêm lịch ..."
+        android:textSize="18dp"
+        android:textColor="#B71C1C"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/txtDayAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtTitleAdd"
+        android:layout_centerHorizontal="true"
+        android:textColor="#000"
+        android:textSize="14dp"
+        android:layout_marginTop="30dp"
+        android:text="01/01/2017" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtDayAdd"
+        android:layout_marginTop="20dp"
+        android:text="Vị trí ô chuồng:"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="20dp"/>
+
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView21"
+        android:layout_marginTop="20dp"
+        android:textSize="14dp"
+        android:textColor="#000"
+        android:layout_marginLeft="40dp"
+        android:text="Loại chuồng:" />
+
+    <Spinner
+        android:id="@+id/spnLoaichuongAdd"
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:paddingRight="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@+id/textView22"
+        android:layout_alignBaseline="@+id/textView22"/>
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView22"
+        android:layout_marginTop="18dp"
+        android:textSize="14dp"
+        android:textColor="#000"
+        android:layout_marginLeft="40dp"
+        android:text="Dãy chuồng:" />
+
+    <Spinner
+        android:id="@+id/spnDaychuongAdd"
+        android:layout_width="235dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="23dp"
+        android:layout_toRightOf="@+id/textView24"
+        android:layout_alignBaseline="@+id/textView24" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView24"
+        android:layout_marginTop="18dp"
+        android:textSize="14dp"
+        android:textColor="#000"
+        android:layout_marginLeft="40dp"
+        android:text="Ô chuồng:" />
+
+    <Spinner
+        android:id="@+id/spnOchuongAdd"
+        android:layout_width="235dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="37dp"
+        android:layout_toRightOf="@+id/textView25"
+        android:layout_alignBaseline="@+id/textView25"/>
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView21"
+        android:layout_below="@+id/textView25"
+        android:layout_marginTop="20dp"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        android:text="Chi tiết" />
+
+    <TextView
+        android:id="@+id/txtLoaiAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView25"
+        android:layout_below="@+id/textView26"
+        android:layout_marginTop="20dp"
+        android:textSize="14dp"
+        android:textColor="#000"
+        android:text="Loại thức ăn:" />
+
+    <Spinner
+        android:id="@+id/spnLoaiAdd"
+        android:layout_width="235dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_toRightOf="@+id/txtLoaiAdd"
+        android:layout_alignBaseline="@+id/txtLoaiAdd" />
+    <TextView
+        android:id="@+id/txtNameAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView25"
+        android:layout_below="@+id/txtLoaiAdd"
+        android:layout_marginTop="15dp"
+        android:textSize="14dp"
+        android:textColor="#000"
+        android:text="Tên thức ăn:" />
+
+    <Spinner
+        android:id="@+id/spnNameAdd"
+        android:layout_width="235dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="22dp"
+        android:layout_toRightOf="@+id/txtNameAdd"
+        android:layout_alignBaseline="@+id/txtNameAdd"/>
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView28"
+        android:layout_below="@+id/textView28"
+        android:layout_marginTop="15dp"
+        android:textSize="14dp"
+        android:textColor="#000"
+        android:text="Số lượng muốn dùng:" />
+
+    <EditText
+        android:id="@+id/edtSoluong"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:textSize="14dp"
+        android:layout_below="@+id/textView28"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="5dp"
+        android:ems="10"
+        android:inputType="number"
+        android:hint="Số lượng" />
+
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/txtNameAdd"
+        android:layout_below="@+id/txtNameAdd"
+        android:layout_marginTop="15dp"
+        android:text="Số lượng trong kho còn:"
+        android:textColor="#000"
+        android:textSize="14dp" />
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/txtNameAdd"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="15dp"
+        android:text="0"
+        android:textColor="#000"
+        android:textSize="14dp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:layout_centerHorizontal="true">
+        <Button
+            android:id="@+id/buttonClose"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="40dp"
+            android:textColor="#fff"
+            android:background="@drawable/cancel_btn"
+            android:paddingRight="40dp"
+            android:textSize="14dp"
+            android:elevation="10dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:text="Hủy bỏ" />
+
+        <Button
+            android:id="@+id/buttonAdd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:textColor="#fff"
+            android:textSize="14dp"
+            android:paddingBottom="5dp"
+            android:paddingLeft="40dp"
+            android:paddingRight="40dp"
+            android:elevation="10dp"
+            android:background="@drawable/button_custom"
+            android:paddingTop="5dp"
+            android:text="Thêm" />
+    </LinearLayout>
+    <View
+        android:layout_width="200dp"
+        android:layout_height="1dp"
+        android:background="#616161"
+        android:layout_below="@id/spnLoaichuongAdd"
+        android:layout_marginTop="-10dp"
+        android:layout_alignStart="@id/spnLoaichuongAdd" />
+    <View
+        android:layout_width="200dp"
+        android:layout_height="1dp"
+        android:background="#616161"
+        android:layout_marginTop="-10dp"
+        android:layout_below="@id/spnDaychuongAdd"
+        android:layout_alignStart="@id/spnDaychuongAdd" />
+    <View
+        android:layout_width="200dp"
+        android:layout_height="1dp"
+        android:background="#616161"
+        android:layout_marginTop="-10dp"
+        android:layout_below="@id/spnOchuongAdd"
+        android:layout_alignStart="@id/spnOchuongAdd" />
+    <View
+        android:layout_width="200dp"
+        android:layout_height="1dp"
+        android:background="#616161"
+        android:layout_marginTop="-10dp"
+        android:layout_below="@id/spnLoaiAdd"
+        android:layout_alignStart="@id/spnLoaiAdd" />
+    <View
+        android:layout_width="200dp"
+        android:layout_height="1dp"
+        android:background="#616161"
+        android:layout_marginTop="-10dp"
+        android:layout_below="@id/spnNameAdd"
+        android:layout_alignStart="@id/spnNameAdd" />
+
+    <TextView
+        android:id="@+id/textView34"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14dp"
+        android:text="Chọn ngày "
+        android:layout_above="@+id/textView21"
+        android:layout_alignStart="@+id/textView21" />
+</RelativeLayout>

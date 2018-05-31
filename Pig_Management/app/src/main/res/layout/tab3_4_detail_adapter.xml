@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/txtTenDetail"
+        android:layout_width="0dp"
+        android:layout_weight="0.6"
+        android:layout_height="wrap_content"
+        android:text="Thuốc 1"
+        android:textSize="17dp"
+        android:textColor="#000"/>
+
+    <TextView
+        android:id="@+id/txtSoluongDetail"
+        android:layout_width="0dp"
+        android:layout_weight="0.2"
+        android:layout_height="wrap_content"
+        android:text="80"
+        android:textSize="18dp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textColor="#000"/>
+
+        <TextView
+            android:id="@+id/txtDonviDetail"
+            android:layout_width="0dp"
+            android:layout_weight="0.2"
+            android:layout_height="wrap_content"
+            android:text="Xi lanh"
+            android:textStyle="italic"
+            android:textSize="17dp"
+            android:textColor="#000"/>
+    </LinearLayout>
+</RelativeLayout>

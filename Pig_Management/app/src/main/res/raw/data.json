@@ -1,0 +1,401 @@
+{
+  "heo":[
+  {
+    "id": "3",
+    "code": "E102",
+    "sex": "Đực",
+    "ngaysinh": "02/02/2017",
+    "giongheo_name": "Yorkshire",
+    "nguongoc": "Trong đàn",
+    "lua": "0",
+    "ngaynhap": "05/02/2017",
+    "giamuavao": "0",
+    "heome_code": "E100",
+    "ochuong_name": "Ô 1 D1C1",
+    "daychuong_name": "Dãy 1",
+    "loaichuong_name": "Chuồng heo con",
+    "heobo_code": "E101",
+    "loaiheo_name": "Heo con"
+  },
+  {
+    "id": "1",
+    "code": "E100",
+    "sex": "Cái",
+    "ngaysinh": "10/02/2016",
+    "giongheo_name": "Landrace",
+    "nguongoc": "Nhập khẩu",
+    "lua": "2",
+    "ngaynhap": "10/12/2016",
+    "giamuavao": "10000000",
+    "heome_code": "",
+    "ochuong_name": "Ô 1 D2C3",
+    "daychuong_name": "Dãy 2",
+    "loaichuong_name": "Chuồng heo nái",
+    "heobo_code": "",
+    "loaiheo_name": "Heo nái"
+  },
+  {
+    "id": "2",
+    "code": "E101",
+    "sex": "Đực",
+    "ngaysinh": "15/05/2016",
+    "giongheo_name": "Duroc",
+    "nguongoc": "Nhập khẩu",
+    "lua": "0",
+    "ngaynhap": "30/10/2016",
+    "giamuavao": "7000000",
+    "heome_code": "",
+    "ochuong_name": "Ô 2 D2C2",
+    "daychuong_name": "Dãy 2",
+    "loaichuong_name": "Chuồng heo đực",
+    "heobo_code": "",
+    "loaiheo_name": "Heo đực trưởng thành"
+  },
+    {
+      "id": "4",
+      "code": "E104",
+      "sex": "Cái",
+      "ngaysinh": "10/08/2016",
+      "giongheo_name": "Yorkshire",
+      "nguongoc": "Nhập khẩu",
+      "lua": "1",
+      "ngaynhap": "10/12/2016",
+      "giamuavao": "15000000",
+      "heome_code": "",
+      "ochuong_name": "Ô 2 D2C3",
+      "daychuong_name": "Dãy 2",
+      "loaichuong_name": "Chuồng heo nái",
+      "heobo_code": "",
+      "loaiheo_name": "Heo nái"
+    }
+  ],
+  "giongheo": [
+    {
+      "giongheo_name": "yorkshire"
+    },
+    {
+      "giongheo_name": "landrace"
+    },
+    {
+      "giongheo_name": "duroc"
+    }
+  ],
+  "loaiheo": [
+    {
+      "loaiheo_name": "heo con"
+    },
+    {
+      "loaiheo_name": "heo đực trưởng thành"
+    },
+    {
+      "loaiheo_name": "heo đực xuất chuồng"
+    },
+    {
+      "loaiheo_name": "heo nái"
+    }
+  ],
+  "chitiet_lichtiemphong": [
+    {
+      "ngaytiem": "25/10/2017",
+      "ochuong_name": "Ô 1 D1C1",
+      "thuoc_name": "Thuốc 1",
+      "soluong": "10",
+      "isDone": "1",
+      "donvi": "Xi lanh"
+    },
+    {
+      "ngaytiem": "25/10/2017",
+      "ochuong_name": "Ô 1 D2C2",
+      "thuoc_name": "Thuốc 1",
+      "soluong": "8",
+      "isDone": "0",
+      "donvi": "Xi lanh"
+    },
+    {
+      "ngaytiem": "25/10/2017",
+      "ochuong_name": "Ô 2 D2C3",
+      "thuoc_name": "Thuốc 2",
+      "soluong": "15",
+      "isDone": "1",
+      "donvi": "Cái"
+    }
+  ],
+  "choan": [
+    {
+      "ngaychoan": "25/10/2017",
+      "ochuong_name": "Ô 1 D1C1",
+      "thucan_name": "Cám A",
+      "soluong": "10",
+      "isDone": "1"
+    },
+    {
+      "ngaychoan": "25/10/2017",
+      "ochuong_name": "Ô 1 D2C2",
+      "thucan_name": "Cám A",
+      "soluong": "7",
+      "isDone": "1"
+    },
+    {
+      "ngaychoan": "25/10/2017",
+      "ochuong_name": "Ô 2 D2C3",
+      "thucan_name": "Cám B",
+      "soluong": "9",
+      "isDone": "1"
+    }
+  ],
+  "loaichuong": [
+    {
+      "loaichuong_name": "Chuồng heo con"
+    },
+    {
+      "loaichuong_name": "Chuồng heo đực"
+    },
+    {
+      "loaichuong_name": "Chuồng heo nái"
+    },
+    {
+      "loaichuong_name": "Chuồng cách ly"
+    }
+  ],
+  "daychuong": [
+    {
+      "daychuong_name": "Dãy 1",
+      "loaichuong_name": "Chuồng heo con"
+    },
+    {
+      "daychuong_name": "Dãy 2",
+      "loaichuong_name": "Chuồng heo con"
+    },
+    {
+      "daychuong_name": "Dãy 1",
+      "loaichuong_name": "Chuồng heo đực"
+    },
+    {
+      "daychuong_name": "Dãy 3",
+      "loaichuong_name": "Chuồng heo đực"
+    },
+    {
+      "daychuong_name": "Dãy 1",
+      "loaichuong_name": "Chuồng heo nái"
+    },
+    {
+      "daychuong_name": "Dãy 2",
+      "loaichuong_name": "Chuồng heo nái"
+    },
+    {
+      "daychuong_name": "Dãy 4",
+      "loaichuong_name": "Chuồng heo nái"
+    },
+    {
+      "daychuong_name": "Dãy 2",
+      "loaichuong_name": "Chuồng cách ly"
+    },
+    {
+      "daychuong_name": "Dãy 3",
+      "loaichuong_name": "Chuồng cách ly"
+    }
+  ],
+  "ochuong": [
+    {
+      "ochuong_name": "Ô 1 D1C1",
+      "daychuong_name": "Dãy 1",
+      "loaichuong_name": "Chuồng heo con"
+    },
+    {
+      "ochuong_name": "Ô 2 D1C1",
+      "daychuong_name": "Dãy 1",
+      "loaichuong_name": "Chuồng heo con"
+    },
+    {
+      "ochuong_name": "Ô 1 D2C1",
+      "daychuong_name": "Dãy 2",
+      "loaichuong_name": "Chuồng heo con"
+    },
+    {
+      "ochuong_name": "Ô 2 D2C1",
+      "daychuong_name": "Dãy 2",
+      "loaichuong_name": "Chuồng heo con"
+    },
+    {
+      "ochuong_name": "Ô 3 D2C1",
+      "daychuong_name": "Dãy 2",
+      "loaichuong_name": "Chuồng heo con"
+    },
+    {
+      "ochuong_name": "Ô 1 D1C2",
+      "daychuong_name": "Dãy 1",
+      "loaichuong_name": "Chuồng heo đực"
+    },
+    {
+      "ochuong_name": "Ô 2 D1C2",
+      "daychuong_name": "Dãy 1",
+      "loaichuong_name": "Chuồng heo đực"
+    },
+    {
+      "ochuong_name": "Ô 3 D1C2",
+      "daychuong_name": "Dãy 1",
+      "loaichuong_name": "Chuồng heo đực"
+    },
+    {
+      "ochuong_name": "Ô 1 D3C2",
+      "daychuong_name": "Dãy 3",
+      "loaichuong_name": "Chuồng heo đực"
+    },
+    {
+      "ochuong_name": "Ô 3 D3C2",
+      "daychuong_name": "Dãy 3",
+      "loaichuong_name": "Chuồng heo đực"
+    },
+    {
+      "ochuong_name": "Ô 1 D1C3",
+      "daychuong_name": "Dãy 1",
+      "loaichuong_name": "Chuồng heo nái"
+    },
+    {
+      "ochuong_name": "Ô 2 D1C3",
+      "daychuong_name": "Dãy 1",
+      "loaichuong_name": "Chuồng heo nái"
+    },
+    {
+      "ochuong_name": "Ô 3 D1C3",
+      "daychuong_name": "Dãy 1",
+      "loaichuong_name": "Chuồng heo nái"
+    },
+    {
+      "ochuong_name": "Ô 1 D2C3",
+      "daychuong_name": "Dãy 2",
+      "loaichuong_name": "Chuồng heo nái"
+    },
+    {
+      "ochuong_name": "Ô 2 D2C3",
+      "daychuong_name": "Dãy 2",
+      "loaichuong_name": "Chuồng heo nái"
+    },
+    {
+      "ochuong_name": "Ô 3 D2C3",
+      "daychuong_name": "Dãy 2",
+      "loaichuong_name": "Chuồng heo nái"
+    },
+    {
+      "ochuong_name": "Ô 1 D3C3",
+      "daychuong_name": "Dãy 4",
+      "loaichuong_name": "Chuồng heo nái"
+    },
+    {
+      "ochuong_name": "Ô 2 D3C3",
+      "daychuong_name": "Dãy 4",
+      "loaichuong_name": "Chuồng heo nái"
+    },
+    {
+      "ochuong_name": "Ô 3 D3C3",
+      "daychuong_name": "Dãy 4",
+      "loaichuong_name": "Chuồng heo nái"
+    },
+    {
+      "ochuong_name": "Ô 1 D1C4",
+      "daychuong_name": "Dãy 1",
+      "loaichuong_name": "Chuồng cách ly"
+    },
+    {
+      "ochuong_name": "Ô 2 D1C4",
+      "daychuong_name": "Dãy 2",
+      "loaichuong_name": "Chuồng cách ly"
+    },
+    {
+      "ochuong_name": "Ô 3 D1C4",
+      "daychuong_name": "Dãy 2",
+      "loaichuong_name": "Chuồng cách ly"
+    },
+    {
+      "ochuong_name": "Ô 1 D2C4",
+      "daychuong_name": "Dãy 3",
+      "loaichuong_name": "Chuồng cách ly"
+    },
+    {
+      "ochuong_name": "Ô 2 D1C4",
+      "daychuong_name": "Dãy 3",
+      "loaichuong_name": "Chuồng cách ly"
+    }
+  ],
+  "thuoc": [
+    {
+      "thuoc_name": "Thuốc 1",
+      "soluong": "100",
+      "loaithuoc_name": "Thuốc tiêm phòng"
+    },
+    {
+      "thuoc_name": "Thuốc 2",
+      "soluong": "198",
+      "loaithuoc_name": "Thuốc chích ngừa"
+    },
+    {
+      "thuoc_name": "Thuốc 3",
+      "soluong": "150",
+      "loaithuoc_name": "Thuốc tiêm phòng"
+    },
+    {
+      "thuoc_name": "Thuốc 4",
+      "soluong": "70",
+      "loaithuoc_name": "Thuốc chích ngừa"
+    },
+    {
+      "thuoc_name": "Thuốc 5",
+      "soluong": "80",
+      "loaithuoc_name": "Thuốc trị bệnh"
+    },
+    {
+      "thuoc_name": "Thuốc 6",
+      "soluong": "110",
+      "loaithuoc_name": "Thuốc trị bệnh"
+    },
+    {
+      "thuoc_name": "Thuốc 7",
+      "soluong": "95",
+      "loaithuoc_name": "Thuốc trị bệnh"
+    }
+  ],
+  "loaithuoc": [
+    {
+      "loaithuoc_name": "Thuốc chích ngừa"
+    },
+    {
+      "loaithuoc_name": "Thuốc trị bệnh"
+    },
+    {
+      "loaithuoc_name": "Thuốc tiêm phòng"
+    }
+  ],
+  "thucan": [
+    {
+      "thucan_name": "Cám A",
+      "soluong": "70",
+      "loaithucan_name": "Cám bột"
+    },
+    {
+      "thucan_name": "Cám B",
+      "soluong": "90",
+      "loaithucan_name": "Cám bắp"
+    },
+    {
+      "thucan_name": "Cám C",
+      "soluong": "120",
+      "loaithucan_name": "Cám tăng trọng"
+    },
+    {
+      "thucan_name": "Cám D",
+      "soluong": "50",
+      "loaithucan_name": "Cám bắp"
+    }
+  ],
+  "loaithucan": [
+    {
+      "loaithucan_name": "Cám bột"
+    },
+    {
+      "loaithucan_name": "Cám bắp"
+    },
+    {
+      "loaithucan_name": "Cám tăng trọng"
+    }
+  ]
+}

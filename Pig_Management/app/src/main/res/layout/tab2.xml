@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <EditText
+        android:id="@+id/edtSearch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/border_search"
+        android:inputType="textPersonName"
+        android:textSize="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="15dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:hint="Tìm thẻ heo"
+        android:paddingLeft="50dp"
+        android:layout_marginRight="20dp"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="30dp"
+        app:srcCompat="@drawable/search_icon" />
+
+    <LinearLayout
+        android:id="@+id/ln4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edtSearch"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:orientation="vertical">
+        <LinearLayout
+            android:id="@+id/ln2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="0dp"
+                android:layout_height="20dp"
+                android:layout_alignStart="@+id/edtSearch"
+                android:layout_marginLeft="8dp"
+                android:layout_weight="0.47"
+                android:text="Loại"
+                android:textColor="#7c7c7c"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="0dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@+id/textView"
+                android:layout_weight="0.51"
+                android:text="Giống"
+                android:textColor="#7c7c7c"
+                android:textSize="14dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/ln3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Spinner
+                android:id="@+id/spnLoai"
+                android:layout_width="0dp"
+                android:layout_weight="0.40"
+                android:layout_height="20dp" />
+            <Spinner
+                android:id="@+id/spnGiong"
+                android:layout_width="0dp"
+                android:layout_height="20dp"
+                android:layout_weight="0.4"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_toRightOf="@+id/spnLoai" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <View
+                android:layout_width="0dp"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="0.10"
+                android:layout_height="2dp"
+                android:background="#ccc" />
+            <View
+                android:layout_width="0dp"
+                android:layout_weight="0.11"
+                android:layout_height="2dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="#ccc"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ln5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ln4"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:paddingBottom="10dp"
+        android:orientation="vertical">
+        <LinearLayout
+            android:id="@+id/ln6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/textView31"
+                android:layout_width="0dp"
+                android:layout_weight="0.35"
+                android:layout_height="20dp"
+                android:layout_alignStart="@+id/edtSearch"
+                android:textSize="14dp"
+                android:layout_marginLeft="8dp"
+                android:textColor="#7c7c7c"
+                android:text="Chuồng" />
+            <TextView
+                android:id="@+id/textView32"
+                android:layout_width="0dp"
+                android:layout_weight="0.3"
+                android:layout_height="20dp"
+                android:layout_toRightOf="@+id/textView"
+                android:textSize="14dp"
+                android:textColor="#7c7c7c"
+                android:layout_marginLeft="10dp"
+                android:text="Dãy" />
+            <TextView
+                android:id="@+id/textView33"
+                android:layout_width="0dp"
+                android:layout_weight="0.35"
+                android:layout_height="25dp"
+                android:layout_toRightOf="@+id/textView"
+                android:textSize="14dp"
+                android:textColor="#7c7c7c"
+                android:layout_marginLeft="10dp"
+                android:text="Ô" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/ln7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Spinner
+                android:id="@+id/spnLoaichuong"
+                android:layout_width="0dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="0.21" />
+
+            <Spinner
+                android:id="@+id/spnDaychuong"
+                android:layout_width="0dp"
+                android:layout_height="20dp"
+                android:layout_weight="0.20"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="5dp"
+                android:layout_toRightOf="@+id/spnLoaichuong" />
+            <Spinner
+                android:id="@+id/spnOchuong"
+                android:layout_width="0dp"
+                android:layout_height="20dp"
+                android:layout_weight="0.20"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="10dp"
+                android:layout_toRightOf="@+id/spnDaychuong" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <View
+                android:layout_width="0dp"
+                android:layout_weight="0.17"
+                android:layout_marginLeft="10dp"
+                android:layout_height="2dp"
+                android:background="#ccc" />
+            <View
+                android:layout_width="0dp"
+                android:layout_weight="0.16"
+                android:layout_height="2dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="5dp"
+                android:background="#ccc"/>
+            <View
+                android:layout_width="0dp"
+                android:layout_weight="0.17"
+                android:layout_height="2dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="10dp"
+                android:background="#ccc"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <ExpandableListView
+        android:id="@+id/elView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:cacheColorHint="#000000"
+        android:foregroundGravity="center"
+        android:animateLayoutChanges="true"
+        android:groupIndicator="@null"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/ln5"
+        android:layout_alignParentStart="true">
+    </ExpandableListView>
+</RelativeLayout>
